@@ -2,5 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'faker', '~> 2.21'
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
 gem "ruby2d", "~> 0.11.1"
+gem "minitest", "~> 5.8"
